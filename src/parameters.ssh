@@ -1,0 +1,11 @@
+aws ssm put-parameter --name "/weather-service/dev/database/pg/DBHOSTNAME" --value "weather-service.cluster-cjk0uai0m9qz.us-east-1.rds.amazonaws.com" --type "String" --region us-east-1
+
+aws ssm put-parameter --name "/weather-service/dev/database/pg/DBPORT" --value "5432" --type "String" --region us-east-1
+
+aws ssm put-parameter --name "/weather-service/dev/database/pg/DBNAME" --value "weatherdb" --type "String" --region us-east-1
+
+aws ssm put-parameter --name "/weather-service/dev/database/pg/DBUSERNAME" --value "postgres" --type "String" --region us-east-1
+
+aws ssm put-parameter --name "/weather-service/dev/database/pg/DBPASSWORD" --value "weathermasterisme" --type "SecureString" --region us-east-1
+
+aws ssm put-parameter --name "/weather-service/dev/database/pg/DBSCHEMA" --value "public" --type "String" --region us-east-1
