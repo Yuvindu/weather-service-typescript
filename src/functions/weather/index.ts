@@ -7,8 +7,8 @@ export default {
       http: {
         method: 'get',
         path: 'weather',
-        
       },
     },
   ],
+  timeout: 30,
 };

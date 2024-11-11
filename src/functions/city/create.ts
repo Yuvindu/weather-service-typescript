@@ -3,7 +3,7 @@ import {create} from "./service";
 import { middyfy } from "@libs/lambda";
 
 import schema from "./schema";
-import { successResponse } from "@libs/response";
+import { successResponse } from "@libs/responseUtils";
 import { City } from "src/entities/city.entity";
 
 const createCity: ValidatedEventAPIGatewayProxyEvent<
